@@ -1,0 +1,75 @@
+/* YouTube-like layout styles */
+body {
+  background: #181818;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.youtube-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto;
+  gap: 32px;
+}
+
+.video-section {
+  flex: 3;
+  background: #212121;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.video-title {
+  margin-top: 16px;
+  font-size: 1.5em;
+}
+
+.video-actions button {
+  background: #333;
+  color: #fff;
+  border: none;
+  margin-right: 12px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.video-actions button:hover {
+  background: #444;
+}
+
+.video-description {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #ccc;
+}
+
+.sidebar {
+  flex: 1;
+  background: #212121;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 16px;
+  background: #333;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background: #444;
+}
